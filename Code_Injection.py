@@ -18,6 +18,7 @@ def flow2():
 def flow3_extra(text):
     return text.split("\n")
 
+
 @app.route("/flow3")
 def flow3():
     text = request.args["text"]
